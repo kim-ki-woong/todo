@@ -5,7 +5,7 @@ __pycache__/
 
 *.pyc
 *~
-
+.idea
 __pycache__
 myvenv
 db.sqlite3
