@@ -1,6 +1,5 @@
 from django.db import models
 
-# Create your models here.
 class TodoList(models.Model):
     no = models.AutoField(db_column= 'NO', primary_key=True)
     pcode = models.CharField(db_column='PCODE',max_length=4)
